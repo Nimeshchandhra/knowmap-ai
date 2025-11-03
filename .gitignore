@@ -1,0 +1,35 @@
+
+# --- Databases ---
+# CRITICAL: Ignore the local user database.
+users.db
+*.db
+*.sqlite3
+
+# --- User Data (NEW!) ---
+# CRITICAL: Ignore all user-uploaded files
+uploads/
+
+# --- Python Virtual Environments & Caches ---
+venv/
+ENV/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Secrets ---
+.env
+*.env
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Build & Deployment Artifacts ---
+deployment_files/
+
+# --- OS & IDE Files ---
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
